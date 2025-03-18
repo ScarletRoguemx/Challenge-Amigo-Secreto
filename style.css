@@ -126,6 +126,21 @@ button {
     background-color: #8607a9;
 }
 
+.button-reset {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #c86c03;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.button-reset:hover {
+    background-color: #b94c03;
+}
+
 /* Listas */
 ul {
     list-style-type: none;
