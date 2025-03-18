@@ -1,10 +1,10 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #6750ff;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
+    --color-button: #0de490;
+    --color-button-hover: #0de490;
+    --color-text: #242424;
     --color-white: #FFFFFF;
 }
 
@@ -38,6 +38,7 @@ body {
     align-items: center;
     padding: 40px 0 0;
 }
+
 
 /* Sección de entrada */
 .input-section {
@@ -116,13 +117,13 @@ button {
 }
 
 .button-add {
-    background-color: var(--color-tertiary);
+    background-color: #cb6ce6;
     color: var(--color-text);
     border-radius: 0 25px 25px 0;
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #8607a9;
 }
 
 /* Listas */
