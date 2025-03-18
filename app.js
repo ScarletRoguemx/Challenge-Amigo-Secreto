@@ -77,10 +77,22 @@ function mostrarResultado(amigoSecreto) {
     const listaResultado = document.getElementById("resultado");
     listaResultado.innerHTML = ""; 
 
-    const li = document.createElement("li");
-    li.textContent = `🎁 El amigo secreto es: ${amigoSecreto}! 🎉`;
-    listaResultado.appendChild(li);
+    if (amigoSecreto) {
+        const li = document.createElement("li");
+        li.textContent = `🎁 El amigo secreto es: ${amigoSecreto}! 🎉`;
+        listaResultado.appendChild(li);
+    }
 }
 
+// Función para reiniciar 
+function reiniciarJuego() {
+    amigos = [];
+    
+    mostrarAmigos();
+    mostrarResultado(null);
 
+    console.log("Juego reiniciado. Lista de amigos:", amigos);
+}
 console.log("Lista inicial de amigos:", amigos);
+
+
